@@ -24,3 +24,13 @@ Project Steps:-
     9.5 Utils
 10) Writing the code for custom exception
 11) Writing the code for logging
+12) Expolatory Data Analysis(EDA) done on jupyter notebook
+    12.1 Dealing with missing value
+    12.2 Correlation between features
+    12.3 Column conversion into meaningfull insight
+    12.4 Graph plotting for Univariate, Bivariate and Multivariate
+    12.5 Train test split
+    12.6 Categorical variable encoding
+    12.7 Model selection
+    12.8 Training the model
+    12.9 Prediction from model
