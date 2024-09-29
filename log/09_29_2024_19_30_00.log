@@ -1,0 +1,19 @@
+[ 2024-09-29 19:30:00,834 ] 28 root - INFO - Data ingestion started
+[ 2024-09-29 19:30:00,855 ] 31 root - INFO - raw data is loaded into dataframe
+[ 2024-09-29 19:30:00,855 ] 34 root - INFO - Train test split done
+[ 2024-09-29 19:30:00,901 ] 37 root - INFO - raw data saved to csv in artifacts directory
+[ 2024-09-29 19:30:00,935 ] 40 root - INFO - Train data is saved into csv and ready for cleaning
+[ 2024-09-29 19:30:00,942 ] 43 root - INFO - Test data is saved into csv and ready for cleaning
+[ 2024-09-29 19:30:00,944 ] 24 root - INFO - Data Cleaning Started
+[ 2024-09-29 19:30:00,973 ] 30 root - INFO - na value dropped
+[ 2024-09-29 19:30:00,986 ] 38 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-09-29 19:30:00,993 ] 45 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-09-29 19:30:01,064 ] 52 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-09-29 19:30:01,084 ] 74 root - INFO - Changed duraton column into hours and minutes
+[ 2024-09-29 19:30:01,116 ] 83 root - INFO - Test dataset loaded
+[ 2024-09-29 19:30:01,116 ] 92 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-09-29 19:30:01,123 ] 98 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-09-29 19:30:01,187 ] 105 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-09-29 19:30:01,189 ] 129 root - INFO - Changed duraton column into hours and minutes
+[ 2024-09-29 19:30:01,197 ] 136 root - INFO - Directory Created
+[ 2024-09-29 19:30:01,231 ] 140 root - INFO - Cleaned data set saved to csv

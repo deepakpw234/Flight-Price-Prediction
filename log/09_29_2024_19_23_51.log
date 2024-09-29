@@ -1,0 +1,6 @@
+[ 2024-09-29 19:23:51,215 ] 28 root - INFO - Data ingestion started
+[ 2024-09-29 19:23:51,236 ] 31 root - INFO - raw data is loaded into dataframe
+[ 2024-09-29 19:23:51,239 ] 34 root - INFO - Train test split done
+[ 2024-09-29 19:23:51,284 ] 37 root - INFO - raw data saved to csv in artifacts directory
+[ 2024-09-29 19:23:51,313 ] 40 root - INFO - Train data is saved into csv and ready for cleaning
+[ 2024-09-29 19:23:51,323 ] 43 root - INFO - Test data is saved into csv and ready for cleaning

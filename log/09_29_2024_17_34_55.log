@@ -1,0 +1,11 @@
+[ 2024-09-29 17:34:55,490 ] 25 root - INFO - Data Cleaning Started
+[ 2024-09-29 17:34:55,531 ] 31 root - INFO - na value dropped
+[ 2024-09-29 17:34:55,540 ] 39 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-09-29 17:34:55,546 ] 46 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-09-29 17:34:55,668 ] 53 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-09-29 17:34:55,676 ] 75 root - INFO - Changed duraton column into hours and minutes
+[ 2024-09-29 17:34:56,330 ] 84 root - INFO - Test dataset loaded
+[ 2024-09-29 17:34:56,330 ] 93 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-09-29 17:34:56,330 ] 99 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-09-29 17:34:56,427 ] 106 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-09-29 17:34:56,433 ] 130 root - INFO - Changed duraton column into hours and minutes

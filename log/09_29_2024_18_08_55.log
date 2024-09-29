@@ -1,0 +1,13 @@
+[ 2024-09-29 18:08:55,560 ] 25 root - INFO - Data Cleaning Started
+[ 2024-09-29 18:08:55,622 ] 31 root - INFO - na value dropped
+[ 2024-09-29 18:08:55,634 ] 39 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-09-29 18:08:55,647 ] 46 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-09-29 18:08:55,789 ] 53 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-09-29 18:08:55,812 ] 75 root - INFO - Changed duraton column into hours and minutes
+[ 2024-09-29 18:08:57,009 ] 84 root - INFO - Test dataset loaded
+[ 2024-09-29 18:08:57,017 ] 93 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-09-29 18:08:57,029 ] 99 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-09-29 18:08:57,206 ] 106 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-09-29 18:08:57,216 ] 130 root - INFO - Changed duraton column into hours and minutes
+[ 2024-09-29 18:08:57,227 ] 137 root - INFO - Directory Created
+[ 2024-09-29 18:08:57,327 ] 141 root - INFO - Cleaned data set saved to csv
