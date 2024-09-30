@@ -1,4 +1,4 @@
-Airline,Source,Destination,Total_Stops,Price,Day,Month,Year,Dep_hour,Dep_minute,Arrival_hour,Arrival_minute,duration_hours,duration_minutes,duration
+Airline,Source,Destination,Total_Stops,Price,Day,Month,Year,Dep_hour,Dep_min,Arrival_hour,Arrival_min,duration_hours,duration_minutes,duration
 Jet Airways,Kolkata,Banglore,1,10844,18,5,2019,5,45,18,15,12,30,750
 GoAir,Delhi,Cochin,1,4959,3,6,2019,10,35,19,35,9,0,540
 Jet Airways,Kolkata,Banglore,1,14781,1,5,2019,14,5,19,50,5,45,345

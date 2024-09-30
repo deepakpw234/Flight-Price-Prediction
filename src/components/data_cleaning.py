@@ -19,10 +19,10 @@ class DataCleaning:
         self.data_config = DataCleaningConfig()
         print(self.data_config.train_cleaned)
 
-    def get_data_clean(self):
+    def get_data_clean(self,train_data_path,test_data_path):
         try:
             logging.info("Data Cleaning Started")
-            flight = pd.read_csv(r"artifacts\train_data.csv")
+            flight = pd.read_csv(train_data_path)
             
             
             # Drpping the na value
@@ -70,7 +70,7 @@ class DataCleaning:
             flight['duration_hours'] = duration_hours
             flight['duration_minutes'] = duration_minutes
             flight = flight.drop(['Duration'],axis=1)
-            flight['Duration']=flight['duration_hours']*60+flight['duration_minutes']
+            flight['duration']=flight['duration_hours']*60+flight['duration_minutes']
             logging.info("Changed duraton column into hours and minutes")
 
             flight = flight.drop(['Additional_Info','Route'],axis=1)
@@ -79,7 +79,7 @@ class DataCleaning:
 
 
             # Test dataset loaded
-            flight_test = pd.read_csv(r"artifacts\test_data.csv")
+            flight_test = pd.read_csv(test_data_path)
             logging.info("Test dataset loaded")
 
 
@@ -94,13 +94,13 @@ class DataCleaning:
             
             # Converting departure time into hours and minutes
             flight_test['Dep_hour'] = pd.to_datetime(flight_test['Dep_Time'],format="%H:%M").dt.hour
-            flight_test['Dep_minute'] = pd.to_datetime(flight_test['Dep_Time'],format="%H:%M").dt.minute
+            flight_test['Dep_min'] = pd.to_datetime(flight_test['Dep_Time'],format="%H:%M").dt.minute
             logging.info("Changed the departure time column into date format and split in hours and minutes")
 
 
             # Converting arrival time into hours and minutes
             flight_test['Arrival_hour'] = pd.to_datetime(flight_test['Arrival_Time']).dt.hour
-            flight_test['Arrival_minute'] = pd.to_datetime(flight_test['Arrival_Time']).dt.minute
+            flight_test['Arrival_min'] = pd.to_datetime(flight_test['Arrival_Time']).dt.minute
             flight_test = flight_test.drop(['Dep_Time','Arrival_Time'],axis=1)
             logging.info("Changed the arrival time column into date format and split in hours and minutes")
 

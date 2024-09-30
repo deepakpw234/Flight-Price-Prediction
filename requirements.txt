@@ -5,4 +5,5 @@ matplotlib
 ipykernel
 scikit-learn
 openpyxl
+dill
 # -e .

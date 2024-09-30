@@ -1,0 +1,4 @@
+[ 2024-09-30 11:33:54,889 ] 31 root - INFO - Data Transforamtion Started
+[ 2024-09-30 11:33:54,889 ] 45 root - INFO - numerical pipeline has been created
+[ 2024-09-30 11:33:54,889 ] 54 root - INFO - categorical pipeline has been created
+[ 2024-09-30 11:33:54,889 ] 63 root - INFO - columnTransformer created

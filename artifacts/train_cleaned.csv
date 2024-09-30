@@ -1,4 +1,4 @@
-Airline,Source,Destination,Total_Stops,Price,Day,Month,Year,Dep_hour,Dep_min,Arrival_hour,Arrival_min,duration_hours,duration_minutes,Duration
+Airline,Source,Destination,Total_Stops,Price,Day,Month,Year,Dep_hour,Dep_min,Arrival_hour,Arrival_min,duration_hours,duration_minutes,duration
 Jet Airways,Mumbai,Hyderabad,2,23528,12,3,2019,6,30,16,35,10,5,605
 Jet Airways,Delhi,Cochin,1,12373,9,5,2019,11,30,12,35,25,5,1505
 SpiceJet,Delhi,Cochin,1,5583,24,4,2019,15,45,22,5,6,20,380
