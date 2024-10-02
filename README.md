@@ -34,3 +34,6 @@ Project Steps:-
     12.7 Model selection
     12.8 Training the model
     12.9 Prediction from model
+13) Data Ingestion
+14) Data Cleaning
+15) Data Transformation

@@ -7,6 +7,9 @@ from src.logger import logging
 from src.exception import CustomException
 
 from dataclasses import dataclass
+import warnings
+warnings.filterwarnings('ignore')
+
 
 @dataclass
 class DataCleaningConfig:
@@ -17,7 +20,7 @@ class DataCleaningConfig:
 class DataCleaning:
     def __init__(self):
         self.data_config = DataCleaningConfig()
-        print(self.data_config.train_cleaned)
+        
 
     def get_data_clean(self,train_data_path,test_data_path):
         try:

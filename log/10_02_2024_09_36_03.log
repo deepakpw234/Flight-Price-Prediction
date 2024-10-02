@@ -1,0 +1,42 @@
+[ 2024-10-02 09:36:04,296 ] 28 root - INFO - Data ingestion started
+[ 2024-10-02 09:36:04,325 ] 31 root - INFO - raw data is loaded into dataframe
+[ 2024-10-02 09:36:04,330 ] 34 root - INFO - Train test split done
+[ 2024-10-02 09:36:04,361 ] 37 root - INFO - raw data saved to csv in artifacts directory
+[ 2024-10-02 09:36:04,394 ] 40 root - INFO - Train data is saved into csv and ready for cleaning
+[ 2024-10-02 09:36:04,420 ] 43 root - INFO - Test data is saved into csv and ready for cleaning
+[ 2024-10-02 09:36:04,420 ] 27 root - INFO - Data Cleaning Started
+[ 2024-10-02 09:36:04,471 ] 33 root - INFO - na value dropped
+[ 2024-10-02 09:36:04,497 ] 41 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-10-02 09:36:04,502 ] 48 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-10-02 09:36:04,611 ] 55 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-10-02 09:36:04,627 ] 77 root - INFO - Changed duraton column into hours and minutes
+[ 2024-10-02 09:36:04,664 ] 86 root - INFO - Test dataset loaded
+[ 2024-10-02 09:36:04,675 ] 95 root - INFO - Changed the date of journey column into date format and split in day,month and year
+[ 2024-10-02 09:36:04,682 ] 101 root - INFO - Changed the departure time column into date format and split in hours and minutes
+[ 2024-10-02 09:36:04,745 ] 108 root - INFO - Changed the arrival time column into date format and split in hours and minutes
+[ 2024-10-02 09:36:04,750 ] 132 root - INFO - Changed duraton column into hours and minutes
+[ 2024-10-02 09:36:04,756 ] 139 root - INFO - Directory Created
+[ 2024-10-02 09:36:04,843 ] 143 root - INFO - Cleaned data set saved to csv
+[ 2024-10-02 09:36:04,843 ] 78 root - INFO - X and Y train test split done
+[ 2024-10-02 09:36:04,843 ] 30 root - INFO - Data Transforamtion Started
+[ 2024-10-02 09:36:04,843 ] 44 root - INFO - numerical pipeline has been created
+[ 2024-10-02 09:36:04,843 ] 53 root - INFO - categorical pipeline has been created
+[ 2024-10-02 09:36:04,843 ] 62 root - INFO - columnTransformer created
+[ 2024-10-02 09:36:04,843 ] 81 root - INFO - Preprocessor is working fine
+[ 2024-10-02 09:36:04,874 ] 85 root - INFO - fit and transform is completed
+[ 2024-10-02 09:36:04,874 ] 11 root - INFO - Save object function is started
+[ 2024-10-02 09:36:04,890 ] 18 root - INFO - object saved
+[ 2024-10-02 09:36:04,890 ] 100 root - INFO - Processor save in the pickle file
+[ 2024-10-02 09:36:04,890 ] 33 root - INFO - Model Training is Started
+[ 2024-10-02 09:36:04,890 ] 52 root - INFO - Training and Testing array is divided into X-train,test and Y-train,test
+[ 2024-10-02 09:36:15,172 ] 77 root - INFO - Fit and Predict Performed on each Model
+[ 2024-10-02 09:36:15,172 ] 86 root - INFO - Best Model and its R2_Scorer found
+[ 2024-10-02 09:36:15,172 ] 93 root - INFO - Model training is completed
+[ 2024-10-02 09:36:15,172 ] 96 root - INFO - Hyperparameter tunning is statred
+[ 2024-10-02 09:36:15,172 ] 113 root - INFO - First Randomnized CV is used to find best hyper parameter
+[ 2024-10-02 09:40:14,039 ] 125 root - INFO - Randomnized CV is Completed
+[ 2024-10-02 09:40:14,041 ] 136 root - INFO - GridSearch CV is loaded
+[ 2024-10-02 09:45:24,399 ] 148 root - INFO - GridSearchCV is Complete
+[ 2024-10-02 09:45:24,405 ] 150 root - INFO - Hyperparameter tunning is ended
+[ 2024-10-02 09:45:24,405 ] 11 root - INFO - Save object function is started
+[ 2024-10-02 09:45:24,405 ] 18 root - INFO - object saved

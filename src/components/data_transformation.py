@@ -18,7 +18,6 @@ from src.utils import save_object
 @dataclass
 class DataTransformationConfig:
     preprocessor_path = os.path.join("artifacts","preprocessor.pkl")
-    model_path = os.path.join("artifacts","model.pkl")
 
 
 class DataTransformation:
@@ -28,13 +27,12 @@ class DataTransformation:
 
     def get_data_transformation(self):
         try:
-            flight = pd.read_csv(r"artifacts\train_cleaned.csv")
             logging.info("Data Transforamtion Started")
 
             num_column = ['Total_Stops', 'Day', 'Month', 'Year', 
                           'Dep_hour', 'Dep_min', 'Arrival_hour', 'Arrival_min', 
                           'duration_hours', 'duration_minutes', 'duration']
-            cat_column = list(flight.select_dtypes(include='O').columns)
+            cat_column = ['Airline', 'Source', 'Destination']
             
 
             num_pipeline = Pipeline(
@@ -68,10 +66,8 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e,sys)
         
-    def initiate_data_transformation(self):
+    def initiate_data_transformation(self,flight, flight_test):
         try:
-            flight = pd.read_csv(r"artifacts\train_cleaned.csv")
-            flight_test = pd.read_csv(r"artifacts\test_cleaned.csv")
 
             target_feature = "Price"
             X_train = flight.drop(columns=[target_feature],axis=1)
@@ -79,11 +75,14 @@ class DataTransformation:
 
             y_train = flight[target_feature]
             y_test = flight_test[target_feature]
+            logging.info("X and Y train test split done")
 
             preprocessor_obj = self.get_data_transformation()
+            logging.info("Preprocessor is working fine")
 
             X_train_arr = preprocessor_obj.fit_transform(X_train)
             X_test_arr = preprocessor_obj.transform(X_test)
+            logging.info("fit and transform is completed")
 
             train_arr = np.c_[
                 X_train_arr, np.array(y_train)
@@ -92,21 +91,20 @@ class DataTransformation:
             test_arr = np.c_[
                 X_test_arr, np.array(y_test)
             ]
-
+        
             
             save_object(
                 self.data_transformation_config.preprocessor_path,
                 preprocessor_obj
             )
+            logging.info("Processor save in the pickle file")
 
-            return train_arr,test_arr
-
+            return (
+                train_arr,test_arr,self.data_transformation_config.preprocessor_path
+            )
 
 
         except Exception as e:
             raise CustomException(e,sys)
 
 
-if __name__ == "__main__":
-    f = DataTransformation()
-    f.initiate_data_transformation()
