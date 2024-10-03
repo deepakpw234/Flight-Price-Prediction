@@ -1,0 +1,141 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Prediction</title>
+
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">FLIGHT PRICE</a>
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br>
+
+
+    <div class="container">
+
+
+
+        <form action="{{ url_for('predict_price')}}" method="post">
+
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Which Airline you want to travel? </h5><h9>[ Jet Airways, SpiceJet, Air India,
+                            Vistara, IndiGo, Air Asia, GoAir ]</h9>
+                        <!-- Airline -->
+                        <input type="text" name = "Airline" placeholder="abc">
+
+                         <h5 class="card-title">Please mention the source? </h5><h9>[ Mumbai, Delhi, Kolkata, Banglore, Chennai]</h9>
+                        <!-- Source -->
+                        <input type="text" name = "Source" placeholder="abc">
+
+                        <h5 class="card-title">Please mention the Destination?</h5><h9>[ Hyderabad, Cochin, Banglore, Delhi, Kolkata, New Delhi ]</h9>
+                        <!-- Destination -->
+                        <input type="text" name = "Destination" placeholder="abc">
+
+                        <h5 class="card-title">Please mention the Total_Stops?</h5><h9>[0-4]</h9><br>
+                        <!-- Total_Stops -->
+                        <input type="number" name="Total_Stops" min="0" max="5" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the Journey Day'?</h5><h9>[1-31]</h9><br>
+                        <!-- Day' -->
+                        <input type="number" name="Day" min="0" max="31" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the Journey Month'?</h5><h9>[1-12]</h9><br>
+                        <!-- Month' -->
+                        <input type="number" name="Month" min="0" max="12" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the Journey Year'?</h5>
+                        <!-- Year' -->
+                        <input type="number" name="Year" min="0" max="2024" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the Dep_hour'?</h5><h9>[0-24]</h9><br>
+                        <!-- Dep_hour' -->
+                        <input type="number" name="Dep_hour" min="0" max="24" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the Dep_min'?</h5><h9>[0-60]</h9><br>
+                        <!-- Dep_min' -->
+                        <input type="number" name="Dep_min" min="0" max="60" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the Arrival_hour'?</h5><h9>[0-24]</h9><br>
+                        <!-- Arrival_hour' -->
+                        <input type="number" name="Arrival_hour" min="0" max="24" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the  Arrival_min'?</h5><h9>[0-60]</h9><br>
+                        <!--  Arrival_min' -->
+                        <input type="number" name="Arrival_min" min="0" max="60" step="1" placeholder="Enter a number">
+
+                        <h5 class="card-title">Please mention the duration_hours'?</h5>
+                        <!-- duration_hours' -->
+                        <input type="number" name="duration_hours" min="0" max="100" step="1" placeholder="Enter a number">
+                        
+                        <h5 class="card-title">Please mention the duration_minutes'?</h5>
+                        <!-- duration_minutes' -->
+                        <input type="number" name="duration_minutes" min="0" max="100" step="1" placeholder="Enter a number">
+                        
+                        <h5 class="card-title">Please mention the duration'?</h5><h9>[ in minutes]</h9><br>
+                        <!-- duration' -->
+                        <input type="number" name="duration" min="0" max="1000" step="1" placeholder="Enter a number">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+            <!-- Submit -->
+            <input type="submit" value="Submit" class="btn btn-secondary">
+        </form>
+
+        <br>
+        <br>
+        <h3>{{ results}}</h3>
+
+        <br>
+        <br>
+        <p>Deepak Pawar</p>
+
+    </div>
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

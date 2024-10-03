@@ -1,0 +1,148 @@
+[ 2024-10-02 23:07:55,109 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-02 23:07:55,115 ] 97 werkzeug - INFO -  * Debugger PIN: 137-200-950
+[ 2024-10-02 23:08:09,401 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:08:09] "GET /home HTTP/1.1" 200 -
+[ 2024-10-02 23:08:09,423 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:08:09] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:09:38,873 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:09:39,169 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:09:40,099 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:09:40] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:09:40,116 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:09:40] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:12:30,880 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:12:30,880 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:12:30,935 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:12:30] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:12:30,948 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:12:30] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:13:29,327 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:13:29,327 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:13:29,386 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:13:29] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:13:29,402 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:13:29] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:13:51,819 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:13:51,819 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:13:51,861 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:13:51] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:13:51,871 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:13:51] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:15:02,854 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:15:02,854 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:15:02,909 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:15:02] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:15:02,919 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:15:02] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:16:03,634 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:16:03,634 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:16:03,679 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:16:03] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:16:03,691 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:16:03] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:17:03,334 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:17:03,335 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:17:03,385 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:17:03] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:17:03,396 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:17:03] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:17:41,580 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:17:41,584 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:17:41,662 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:17:41] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:17:41,684 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:17:41] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:18:39,777 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:18:39,777 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:18:39,824 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:18:39] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:18:39,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:18:39] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:21:12,895 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:21:12,896 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:21:12,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:21:12] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:21:12,946 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:21:12] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:22:14,166 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:22:14,166 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:22:14,212 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:22:14] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:22:14,225 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:22:14] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:22:45,105 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:22:45,108 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:22:45,130 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:22:45] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:22:45,141 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:22:45] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:24:56,072 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:24:56,076 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:24:56,114 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:24:56] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:24:56,124 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:24:56] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:25:39,103 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:25:39,105 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:25:39,141 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:25:39] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:25:39,151 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:25:39] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:26:36,844 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:26:36,846 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:26:36,898 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:26:36] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:26:36,908 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:26:36] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:27:13,108 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:27:13,111 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:27:13,149 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:27:13] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:27:13,160 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:27:13] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:27:43,813 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:27:43,813 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:27:43,840 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:27:43] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:27:43,851 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:27:43] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:29:04,465 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:29:04,466 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:29:04,509 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:29:04] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:29:04,520 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:29:04] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:29:43,876 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:29:43,876 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:29:43,913 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:29:43] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:29:43,926 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:29:43] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:30:21,624 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:30:21,626 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:30:21,659 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:30:21] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:30:21,669 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:30:21] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:30:25,719 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:30:25,719 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:30:25,747 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:30:25] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:30:25,757 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:30:25] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:31:48,303 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:31:48,308 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:31:48,332 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:31:48] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:31:48,341 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:31:48] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:32:16,617 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:32:16,630 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:32:16,653 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:32:16] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:32:16,665 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:32:16] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:32:38,513 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:32:38,513 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:32:38,557 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:32:38] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:32:38,568 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:32:38] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:33:10,090 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:33:10,093 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:33:10,117 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:33:10] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:33:10,127 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:33:10] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:33:35,567 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:33:35,567 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:33:35,605 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:33:35] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:33:35,618 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:33:35] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:34:02,865 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:34:02,868 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:34:02,904 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:34:02] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:34:02,914 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:34:02] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:34:46,821 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:34:46,821 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:34:46,851 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:34:46] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:34:46,864 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:34:46] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:35:35,544 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:35:35,544 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:35:35,579 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:35:35] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:35:35,592 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:35:35] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:36:59,638 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:36:59,638 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:36:59,679 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:36:59] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:36:59,691 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:36:59] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:37:46,410 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:37:46,410 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:37:46,435 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:37:46] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:37:46,448 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:37:46] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:41:03,118 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:41:03,121 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:41:03,142 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:41:03] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:41:03,155 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:41:03] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-02 23:41:49,551 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:41:49,551 ] 26 root - INFO - Load object function is started
+[ 2024-10-02 23:41:49,568 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:41:49] "POST /home HTTP/1.1" 200 -
+[ 2024-10-02 23:41:49,586 ] 97 werkzeug - INFO - 127.0.0.1 - - [02/Oct/2024 23:41:49] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 06:39:55,257 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 06:39:55,259 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 06:39:55,339 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 06:39:55] "POST /home HTTP/1.1" 200 -
+[ 2024-10-03 06:39:55,380 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 06:39:55] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 06:40:49,084 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 06:40:49,085 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 06:40:49,123 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 06:40:49] "POST /home HTTP/1.1" 200 -
+[ 2024-10-03 06:40:49,137 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 06:40:49] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 06:41:33,488 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 06:41:33,500 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 06:41:33,549 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 06:41:33] "POST /home HTTP/1.1" 200 -
+[ 2024-10-03 06:41:33,562 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 06:41:33] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
