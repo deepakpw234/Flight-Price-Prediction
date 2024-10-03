@@ -37,3 +37,8 @@ Project Steps:-
 13) Data Ingestion
 14) Data Cleaning
 15) Data Transformation
+16) Model Training
+    16.1 Model selection
+    16.2 Hyper parameter tunning
+    16.3 Saving the Model
+17) Creating app.py for API
