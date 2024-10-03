@@ -31,7 +31,7 @@ def predict_price():
             Dep_min=request.form.get("Dep_min"),
             Arrival_hour=request.form.get("Arrival_hour"),
             Arrival_min=request.form.get("Arrival_min"),
-            duration_hours=request.form.get("duration_hours"),
+            duration_hours=request.form.get("Arrival_hour"),
             duration_minutes=request.form.get("duration_minutes"),
             duration=request.form.get("duration")
         )

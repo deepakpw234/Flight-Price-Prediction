@@ -23,12 +23,7 @@ class PredictPipeline:
 
             scaled_data = preprocessor.transform(df)
             pred = model.predict(scaled_data)
-            print(preprocessor_path)
-            print(model_path)
-            print(preprocessor)
-            print(model)
-            print(scaled_data)
-            print(pred)
+            
             return pred
 
 

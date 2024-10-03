@@ -1,0 +1,9 @@
+[ 2024-10-03 07:15:12,319 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-03 07:15:12,319 ] 97 werkzeug - INFO -  * Debugger PIN: 137-200-950
+[ 2024-10-03 07:15:18,011 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 07:15:18,197 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 07:15:19,010 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:15:19] "POST /home HTTP/1.1" 200 -
+[ 2024-10-03 07:15:19,021 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:15:19] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 07:15:34,258 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:15:34] "GET / HTTP/1.1" 200 -
+[ 2024-10-03 07:15:39,139 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:15:39] "GET /home HTTP/1.1" 200 -
+[ 2024-10-03 07:15:39,166 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:15:39] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -

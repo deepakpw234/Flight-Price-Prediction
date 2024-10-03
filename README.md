@@ -42,3 +42,5 @@ Project Steps:-
     16.2 Hyper parameter tunning
     16.3 Saving the Model
 17) Creating app.py for API
+18) Writing Model Prediction Pipeline and linking with app.py
+19) Deployment with AWS by using gitHub action

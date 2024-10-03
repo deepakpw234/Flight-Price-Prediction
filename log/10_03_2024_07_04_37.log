@@ -1,0 +1,16 @@
+[ 2024-10-03 07:04:37,191 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-03 07:04:37,206 ] 97 werkzeug - INFO -  * Debugger PIN: 137-200-950
+[ 2024-10-03 07:04:42,880 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:04:42] "GET /home HTTP/1.1" 200 -
+[ 2024-10-03 07:04:42,900 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:04:42] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 07:04:48,779 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:04:48] "GET / HTTP/1.1" 200 -
+[ 2024-10-03 07:04:53,371 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:04:53] "GET /home HTTP/1.1" 200 -
+[ 2024-10-03 07:04:53,409 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:04:53] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 07:05:52,283 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 07:05:52,626 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 07:05:53,800 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:05:53] "POST /home HTTP/1.1" 200 -
+[ 2024-10-03 07:05:53,814 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:05:53] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 07:07:08,828 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 07:07:08,834 ] 26 root - INFO - Load object function is started
+[ 2024-10-03 07:07:08,869 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:07:08] "POST /home HTTP/1.1" 200 -
+[ 2024-10-03 07:07:08,902 ] 97 werkzeug - INFO - 127.0.0.1 - - [03/Oct/2024 07:07:08] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2024-10-03 07:10:21,217 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\deepa\\Panda 2024\\Flight Prediction\\app.py', reloading
