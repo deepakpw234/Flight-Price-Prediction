@@ -45,3 +45,8 @@ Project Steps:-
 18) Writing Model Prediction Pipeline and linking with app.py
 19) Deployment with AWS by using gitHub action
 20) Creating .ebextensions folder and application.py
+21) Continuous Deployment (AWS)
+    21.1 Setup Elastic Beanstalk by creating application and environment
+    21.2 Setup Codepipeline
+22) Continuous Integration (AWS)
+    22.1 Preparing the docker image of the project
