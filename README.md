@@ -50,3 +50,23 @@ Project Steps:-
     21.2 Setup Codepipeline
 22) Continuous Integration (AWS)
     22.1 Preparing the docker image of the project
+23) Creating a docker image
+24) Creating foleder .github/workflows for workflow and add main.yaml file in it
+
+
+#Docker Setup In EC2 commands to be Executed
+#optinal
+
+sudo apt-get update -y
+
+sudo apt-get upgrade
+
+#required
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
